@@ -2,7 +2,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:tflite_flutter_plugin_example/game_agent.dart';
+import 'package:planestrike_flutter/game_agent.dart';
 
 void main() {
   runApp(PlaneStrike());
