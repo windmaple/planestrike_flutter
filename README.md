@@ -1,9 +1,9 @@
-# Text Classification Example 
+# Reinforcement Learning Example 
 
-Refer to [Medium Blog](https://medium.com/@am15hg/text-classification-using-tensorflow-lite-plugin-for-flutter-3b92f6655982) for detailed tutorial.
+Refer to [Medium Blog](https://windmaple.medium.com/playing-a-board-game-on-device-using-tensorflow-lite-and-fluter-a7c865b9aefc) for a simple introduction of the game and how it's built.
 
 ### Overview
 
-This basic Text Classification app demonstrates the usage of tflite_flutter_plugin.
+This is a Flutter app built with tflite_flutter_plugin, showcasing playing a board game using reinforcement learning.
 
 ![DEMO GIF](demo.gif)
