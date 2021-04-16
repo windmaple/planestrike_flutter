@@ -4,6 +4,6 @@ Refer to [Medium Blog](https://windmaple.medium.com/playing-a-board-game-on-devi
 
 ### Overview
 
-This is a Flutter app built with tflite_flutter_plugin, showcasing playing a board game using reinforcement learning.
+This is a Flutter app built with [tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin), showcasing playing a board game using reinforcement learning.
 
 ![DEMO GIF](demo.gif)
