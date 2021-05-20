@@ -1,6 +1,6 @@
 # Plane Strike: a game built with JAX, TFLite and Flutter. 
 
-Plane Strike is a small game that can be played on both Android and iOS (desktop/web support will be added when the [tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) supports desktop/web). 
+Plane Strike is a small game that can be played on both Android and iOS (desktop/web support will be added when [tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) supports desktop/web). 
 
 ### Overview
 
@@ -12,7 +12,7 @@ During the game play, if you, as the player, strike at a cell in the agent's boa
 
 ### How it's built
 
-Under the hood, the agent is trained with [Flax](https://github.com/google/flax) (a high-level neural network library for [JAX](https://github.com/google/jax/)) using policy gradient reinforcement learning. Training code is in training/planestrike.py. JAX has experimental support for converting JAX/Flax models to TensorFlow models. In our case, we convert the Flax module to a TF concrete function and then convert it to a TFLite model.
+Under the hood, the agent is trained with [Flax](https://github.com/google/flax) (a high-level neural network library for [JAX](https://github.com/google/jax/)) using policy gradient reinforcement learning (REINFOCE). Training code is in training/planestrike.py. JAX has experimental support for converting JAX/Flax models to TensorFlow models. In our case, we convert the Flax module to a TF concrete function and then convert it to a TFLite model.
 
 The frontend is built with Flutter, which comes with cross-platform support for free. Since TFLite does not have an official interface for Flutter, we are using this open source [tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) project to run inference.
 
