@@ -5,7 +5,6 @@ import jax.numpy as jnp
 from jax import random
 from jax.experimental import jax2tf
 import random as nprandom
-import matplotlib.pyplot as plt
 import tensorflow as tf
 import functools
 import numpy as np
@@ -20,7 +19,7 @@ LR = 1e-2
 WINDOW_SIZE = 50
 LOGDIR = "./log/"
 
-class PolicyGradient(nn.Module):    
+class PolicyGradient(nn.Module):
     @nn.compact
     def __call__(self, x):
         dtype = jnp.float32

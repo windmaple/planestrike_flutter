@@ -1,0 +1,7 @@
+flax==0.3.3
+jax==0.2.13
+jaxlib==0.1.66
+tensorboard==2.5.0
+tensorflow==2.4.1
+tflite==2.3.0
+numpy==1.19.5
