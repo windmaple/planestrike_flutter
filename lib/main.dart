@@ -258,8 +258,7 @@ class _PlaneStrikeState extends State<PlaneStrike>
         gridItemColor = Colors.yellow;
         break;
       default:
-        if (hiddenBoardState[x][y] == 1) {
-          // && agentOrPlayer == 'player') {
+        if (hiddenBoardState[x][y] == 1 && agentOrPlayer == 'player') {
           gridItemColor = Colors.green;
         } else {
           gridItemColor = Colors.white;
