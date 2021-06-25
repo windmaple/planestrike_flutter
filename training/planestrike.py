@@ -198,3 +198,13 @@ tflite_model = converter.convert()
 
 with open('planestrike.tflite', 'wb') as f:
   f.write(tflite_model)
+
+# Convert to XLA HLO
+input = jnp.zeros((1, BOARD_SIZE, BOARD_SIZE))
+
+xla_comp = jax.xla_computation(predict_fn)(input)
+
+print(xla_comp.as_hlo_text())
+outfile = "planestrike.hlo"
+with open(outfile, "wb") as f:
+	f.write(xla_comp.as_serialized_hlo_module_proto())
