@@ -1,5 +1,5 @@
 # Plane Strike: a game built with JAX, TFLite and Flutter. 
-### **\*This is a personal project and is in no way an official product of the company I work for\***
+### **\*This project has been merged into the official [TFLite-Flutter plugin repo](https://github.com/tensorflow/flutter-tflite/tree/main/example/reinforcement_learning)\***
 
 Plane Strike is a small game that can be played on both Android/iOS/desktop(web support will be added when [tflite_flutter_plugin](https://github.com/am15h/tflite_flutter_plugin) supports web).
 
